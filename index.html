@@ -6,58 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-qury.css">
     <title>Modern Login Page</title>
 </head>
 
 <body>
+
     <div class="container" id="container">
         <div class="form-container sign-up">
             <form>
-                <h1>Create Account</h1>
-                <div class="social-icons">
-                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
-                </div>
-                <span>or use your email for registeration</span>
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Email">
-                <input type="password" placeholder="Password">
-                <button>Sign Up</button>
+                
+                <input type="text" placeholder="Informe seu nome...">
+                <input type="email" placeholder="Email...">
+                <input type="password" placeholder="WhatsApp">
+                <button>Enviar</button>
+                <a href="https://wa.me/5599981369928" >
+                <span class="linkseparado" style="color: #20AB4B;font-size:12pt;" class="textwpp">Falar no <strong>WhatsApp?</strong> Clique aqui</span>
+                </a>
             </form>
+                
         </div>
         <div class="form-container sign-in">
             <form>
-                <h1>Sign In</h1>
-                <div class="social-icons">
-                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
-                </div>
-                <span>or use your email password</span>
+                <h1 class="tituloLogin">Faça seu Login</h1>
+                <span>Informe seu e-mail e senha</span>
                 <input type="email" placeholder="Email">
-                <input type="password" placeholder="Password">
-                <a href="#">Forget Your Password?</a>
-                <button>Sign In</button>
+                <input type="password" placeholder="Senha">
+                <button>Entrar</button>
+                <a href="#">Esqueceu a senha?</a>
+    
             </form>
         </div>
         <div class="toggle-container">
             <div class="toggle">
                 <div class="toggle-panel toggle-left">
-                    <h1>Welcome Back!</h1>
-                    <p>Enter your personal details to use all of site features</p>
-                    <button class="hidden" id="login">Sign In</button>
+                    <h1>Solicite um Contato!</h1>
+                    <p>Preencha o formulário e um dos nossos representantes entrará em contato o mais rápido possível </p>
+                    <button class="hidden" id="login">Voltar</button>
                 </div>
                 <div class="toggle-panel toggle-right">
-                    <h1>Hello, Friend!</h1>
-                    <p>Register with your personal details to use all of site features</p>
-                    <button class="hidden" id="register">Sign Up</button>
+                    <img class="imageLogin" id="imageLogin" src="assets\Zaperia 1.2.png" alt="teste">
+                    <!-- <h1>Hello, Friend!</h1> -->
+                    <!-- <p>Ainda não tem conta na Zaperia? Clique aqui</p> -->
+                    <p class="hidden" id="register">Não tem conta na Zaperia? <strong>Clique aqui </strong></p>
                 </div>
             </div>
         </div>
     </div>
+
 
     <script src="script.js"></script>
 </body>

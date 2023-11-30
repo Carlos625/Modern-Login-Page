@@ -47,7 +47,7 @@ body{
 }
 
 .container button{
-    background-color: #0055ff;
+    background-color: #146a23;
     color: #fff;
     font-size: 12px;
     padding: 10px 45px;
@@ -128,21 +128,6 @@ body{
     }
 }
 
-.social-icons{
-    margin: 20px 0;
-}
-
-.social-icons a{
-    border: 1px solid #ccc;
-    border-radius: 20%;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 3px;
-    width: 40px;
-    height: 40px;
-}
-
 .toggle-container{
     position: absolute;
     top: 0;
@@ -161,9 +146,9 @@ body{
 }
 
 .toggle{
-    background-color: #0055ff;
+    background-color: #20AB4B;
     height: 100%;
-    background: linear-gradient(288deg, #0055ff, #043873);
+    background: linear-gradient(288deg, #20AB4B, #0d7304);
     color: #fff;
     position: relative;
     left: -100%;
@@ -175,6 +160,7 @@ body{
 
 .container.active .toggle{
     transform: translateX(50%);
+  
 }
 
 .toggle-panel{
@@ -208,3 +194,31 @@ body{
 .container.active .toggle-right{
     transform: translateX(200%);
 }
+
+.tituloLogin{
+    margin-bottom: 20px;
+}
+
+/* .imageLogin{
+    margin-top: ;
+} */
+.btnwpp{
+    position: absolute;
+    margin-bottom: -390px;
+    background-color: #fff;
+}
+
+.textwpp{
+    position: absolute;
+    margin-bottom: -320px;
+    size: 50px;
+
+}
+
+
+.linkseparado{
+    margin-bottom: 490px;
+    width: 270px;
+}
+
+
