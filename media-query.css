@@ -94,11 +94,10 @@ margin-top: 20px;
 .container.textwpp{
     font-size: 10px;
 }
-.container.linkseparado{
+a .linkseparado{
     font-size: 10pt;
+    text-align: center;
 }
-
 }
-
 
 
