@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width:992px) {
+    div#container{
+        width: 90vw;
+    }
+
+    div#container > img#imageLogin{
+        width: 50px;
+    }
+    
+} 
+
+
+@media screen and (max-width: 768px) {
+    /* Coloque aqui as regras de estilo para tablets */
+    .container {
+        /* Exemplo de ajuste para tablets */
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    
+    /* Adicione outros ajustes necessários para tablets */
+}
+
+/* Estilos para dispositivos menores, como tablets e celulares */
+@media only screen and (max-width: 768px) {
+    .imageLogin {
+        /* Defina o tamanho da imagem para dispositivos menores */
+        margin-top: 10%;
+        width: 30%; /* ou o tamanho desejado para dispositivos menores */
+        height: auto; /* Garante a proporção da imagem */
+    }
+    .formLogin {
+        margin-top: 50%;
+        width: 200%;
+    
+    }
+    .tituloLogin{
+        
+        font-size: 0pt;
+    }
+    .formLogincontato {
+        position: fixed;
+        margin-top: 50%;
+        width: 200%;
+        left:-100%;
+    
+    }
+
+    .linkseparado{
+        position: absolute;
+        font-size: 20px;
+        left:7%;
+    }
+
+    #toggle-container {
+        position: absolute;
+        top: -50px; /* Ajuste este valor para mover o toggle para cima */
+        left: 50%;
+        width: 150%;
+        height: 50%;
+        overflow: hidden;
+        transition: all 0.6s ease-in-out;
+        border-radius: 150px 0 0 100px;
+        z-index: 1000;
+        transform: translateX(-50%); /* Mantém o elemento centralizado horizontalmente */
+    }
+
+
+
+#toogle-container.toogledireita{
+    /* display: none; */
+background-color: aqua;
+width: 250px;
+height: 280px;
+margin-top: 20px;
+}
+
+.titulocad{
+    font-size: 20pt;
+}
+
+.paragrafocad{
+    padding-top: 50px;
+   padding-left: 70px;
+   padding-right: 70px;
+}
+
+.titulocad{
+    display: none;
+}
+
+.container.textwpp{
+    font-size: 10px;
+}
+.container.linkseparado{
+    font-size: 10pt;
+}
+
+}
+
+
+

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="media-qury.css">
+    <link rel="stylesheet" href="media-query.css">
     <title>Modern Login Page</title>
 </head>
 
@@ -14,35 +14,35 @@
 
     <div class="container" id="container">
         <div class="form-container sign-up">
-            <form>
-                
+            <form class="formLogincontato">
+
                 <input type="text" placeholder="Informe seu nome...">
                 <input type="email" placeholder="Email...">
                 <input type="password" placeholder="WhatsApp">
                 <button>Enviar</button>
                 <a href="https://wa.me/5599981369928" >
-                <span class="linkseparado" style="color: #20AB4B;font-size:12pt;" class="textwpp">Falar no <strong>WhatsApp?</strong> Clique aqui</span>
+                <span class="linkseparado" style="color: #20AB4B;font-size:12pt;">Falar no <strong>WhatsApp?</strong> Clique aqui</span>
                 </a>
             </form>
                 
         </div>
         <div class="form-container sign-in">
-            <form>
+            <form class="formLogin">
                 <h1 class="tituloLogin">Faça seu Login</h1>
                 <span>Informe seu e-mail e senha</span>
-                <input type="email" placeholder="Email">
-                <input type="password" placeholder="Senha">
-                <button>Entrar</button>
+                <input id="usuario" type="email" placeholder="Email">
+                <input id="senha"  type="password" placeholder="Senha">
+                <button onclick="autenticar()">Entrar</button>
                 <a href="#">Esqueceu a senha?</a>
     
             </form>
         </div>
-        <div class="toggle-container">
+        <div class="toggle-container" id="toggle-container">
             <div class="toggle">
-                <div class="toggle-panel toggle-left">
-                    <h1>Solicite um Contato!</h1>
-                    <p>Preencha o formulário e um dos nossos representantes entrará em contato o mais rápido possível </p>
-                    <button class="hidden" id="login">Voltar</button>
+                <div id="toogledireita" class="toggle-panel toggle-left">
+                    <h1 class="titulocad">Solicite um Contato!</h1>
+                    <p class="paragrafocad">Preencha o formulário e um dos nossos representantes entrará em contato o mais rápido possível </p>
+                    <p class="hidden" id="login"><strong>Voltra para o Login</strong> </p>
                 </div>
                 <div class="toggle-panel toggle-right">
                     <img class="imageLogin" id="imageLogin" src="assets\Zaperia 1.2.png" alt="teste">
@@ -51,7 +51,8 @@
                     <p class="hidden" id="register">Não tem conta na Zaperia? <strong>Clique aqui </strong></p>
                 </div>
             </div>
-        </div>
+
+        </div>                                                                                                                                                                                                                                                                                                                                                                             
     </div>
 
 
