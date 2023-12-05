@@ -14,20 +14,27 @@
 
     <div class="container" id="container">
         <div class="form-container sign-up">
-            <form class="formLogincontato">
+            <form class="formLogincontato"  action="https://formsubmit.co/carloscarreiro021@gmail.com" method="POST">
 
-                <input type="text" placeholder="Informe seu nome...">
-                <input type="email" placeholder="Email...">
-                <input type="password" placeholder="WhatsApp">
-                <button>Enviar</button>
+                <input type="text" name="nome" placeholder="Informe seu nome..." required>
+                <input type="email" name="email" placeholder="Email..." required>
+                <input type="number" name="numero" placeholder="WhatsApp" required>
+                <button type="submit">Enviar</button>
                 <a href="https://wa.me/5599981369928" >
                 <span class="linkseparado">Falar no <strong>WhatsApp?</strong> Clique aqui</span>
                 </a>
+
+
+                <!-- <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html"> -->
+                <input type="hidden" name="_subject" value="Novo Contato!">
+                <input type="text" name="_honey" style="display:none">
+                <input type="hidden" name="_captcha" value="false">
+                
             </form>
                 
         </div>
         <div class="form-container sign-in">
-            <form class="formLogin">
+            <form class="formLogin" >
                 <h1 class="tituloLogin">Faça seu Login</h1>
                 <span>Informe seu e-mail e senha</span>
                 <input id="usuario" type="email" placeholder="Email">
@@ -42,12 +49,10 @@
                 <div id="toogledireita" class="toggle-panel toggle-left">
                     <h1 class="titulocad">Solicite um Contato!</h1>
                     <p class="paragrafocad">Preencha o formulário e um dos nossos representantes entrará em contato o mais rápido possível </p>
-                    <p class="hidden" id="login"><strong>Voltra para o Login</strong> </p>
+                    <p class="hidden" id="login"><strong>Voltar para o Login</strong> </p>
                 </div>
                 <div class="toggle-panel toggle-right">
                     <img class="imageLogin" id="imageLogin" src="assets\Zaperia 1.2.png" alt="teste">
-                    <!-- <h1>Hello, Friend!</h1> -->
-                    <!-- <p>Ainda não tem conta na Zaperia? Clique aqui</p> -->
                     <p class="hidden" id="register">Não tem conta na Zaperia? <strong>Clique aqui </strong></p>
                 </div>
             </div>
